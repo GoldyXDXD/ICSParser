@@ -1,8 +1,10 @@
+package string_enum;
+
 public enum StringBeginnings {
     TEACHER_STRING_BEGINNING("DESCRIPTION:"),
     SUBJECT_BEGINNING("SUMMARY:"),
-    BEGINNING("DTSTART;TZID=Europe/Moscow:"),
-    END("DTEND;TZID=Europe/Moscow:");
+    BEGINNING_TIME("DTSTART;TZID=Europe/Moscow:"),
+    END_TIME("DTEND;TZID=Europe/Moscow:");
 
     private final String stringBeginning;
 
